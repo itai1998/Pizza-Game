@@ -9,7 +9,7 @@ class Overworld{
     startGameLoop(){
         const step = () => {
 
-            // Clear the whole canvas each loop
+            // Clear the whole canvas
             this.ctx.clearRect(0,0,this.canvas.width, this.canvas.height);
 
             //Draw Lower layer

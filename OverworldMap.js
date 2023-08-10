@@ -18,6 +18,9 @@ class OverworldMap{
     }
 }
 
+// In browsers, the window object is the global object. By explicitly assigning something to window, 
+// you are making it global and accessible everywhere in your script and potentially 
+// from other scripts running in the same context.
 window.OverworldMaps = {
     DemoRoom:{
         lowerSrc: "/images/maps/DemoLower.png",
